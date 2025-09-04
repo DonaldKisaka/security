@@ -1,4 +1,4 @@
-package com.don.security;
+package com.don.security.user;
 
 public enum Role {
 
