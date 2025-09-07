@@ -23,10 +23,10 @@ public class AuthenticationContoller {
     }
 
     @PostMapping("/authenticate")
-    public ResponseEntity<AuthenticationResponse> register(
+    public ResponseEntity<AuthenticationResponse> authenticate(
             @RequestBody AuthenticationRequest request
     ) {
-        return ResponseEntity.ok(service.authenticate(request))
+        return ResponseEntity.ok(service.authenticate(request));
     }
 
 
